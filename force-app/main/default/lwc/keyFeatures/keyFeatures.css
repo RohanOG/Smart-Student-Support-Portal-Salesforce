@@ -1,0 +1,23 @@
+.key-features {
+    background-color: #e4a846; /* Light Blue */
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.key-features h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1976d2;
+}
+
+.key-features ul {
+    list-style: disc inside;
+    padding-left: 1rem;
+}
+
+.key-features li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}

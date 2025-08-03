@@ -1,0 +1,19 @@
+.feedback-box {
+    background-color: #e0f7fa;
+    border: 2px solid #00acc1;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007c91;
+    margin-bottom: 16px;
+}
+
+.submit-button {
+    margin-top: 12px;
+}

@@ -1,0 +1,23 @@
+.intro-container {
+    background-color: #77e971; /* light sky blue tone */
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.intro-container h2 {
+    font-size: 1.5rem;
+    color: #1a237e;
+    margin-bottom: 10px;
+}
+
+.intro-container p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.dot {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}

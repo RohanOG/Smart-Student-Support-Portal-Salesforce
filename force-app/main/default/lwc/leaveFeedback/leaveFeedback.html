@@ -1,0 +1,36 @@
+<template>
+    <div class="feedback-box">
+        <div class="feedback-title">💬 Leave Your Feedback</div>
+        <form onsubmit={handleSubmit}>
+            <lightning-input
+                type="text"
+                label="Your Name"
+                value={name}
+                onchange={handleNameChange}
+                required>
+            </lightning-input>
+
+            <lightning-input
+                type="email"
+                label="Your Email"
+                value={email}
+                onchange={handleEmailChange}
+                required>
+            </lightning-input>
+
+            <lightning-textarea
+                label="Your Feedback"
+                value={message}
+                onchange={handleMessageChange}
+                required>
+            </lightning-textarea>
+
+            <lightning-button
+                type="submit"
+                label="Submit"
+                variant="brand"
+                class="submit-button">
+            </lightning-button>
+        </form>
+    </div>
+</template>
