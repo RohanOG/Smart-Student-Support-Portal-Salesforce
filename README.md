@@ -1,18 +1,48 @@
-# Salesforce DX Project: Next Steps
+# 🎓 Smart Student Support & Grading Portal (SSGP) - Salesforce Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A scalable Salesforce application designed to streamline assignment management, grading automation, and student-teacher communication in academic environments.
 
-## How Do You Plan to Deploy Your Changes?
+---
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## 🔍 Overview
 
-## Configure Your Salesforce DX Project
+The **Smart Student Support & Grading Portal (SSGP)** is built natively on the Salesforce Platform to simulate a real-world Education Management System. It enables seamless assignment handling, automated evaluations, support ticketing, and fine-grained access control for Teachers, Students, and Admins.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+---
 
-## Read All About It
+## ✨ Key Features
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- 📚 **Assignment Management**  
+  Create, track, and manage course assignments with due dates and automatic reminders.
+
+- 🎯 **Automated Evaluation Record Generation**  
+  Evaluation records are auto-generated upon assignment creation using Salesforce Flows.
+
+- 🧑‍🏫 **Role-Based Access Control**  
+  Profiles and sharing settings limit data access to specific roles: Student, Teacher, and Admin.
+
+- 🛠️ **Support Ticketing System**  
+  Students can raise support tickets linked to specific evaluations, facilitating communication and resolution.
+
+- 🔗 **Custom Object Relationships**  
+  Implemented junction objects (e.g., `CourseEnrollment__c`) and lookups to model realistic education flows.
+
+---
+
+## 🧰 Tech Stack & Tools
+
+| Layer          | Technologies Used                                  |
+|----------------|----------------------------------------------------|
+| ⚙️ Platform     | Salesforce (Developer Org)                         |
+| 💡 Logic        | Flows, Validation Rules, Formula Fields            |
+| 🧩 Data Model   | Custom Objects, Lookups, Junctions                 |
+| 👤 Access       | Profiles, Permission Sets, Org-Wide Defaults (OWD) |
+| 🚀 UI Layer     | Lightning App Builder, Tabs, Page Layouts         |
+| 🧪 In Progress  | Apex Triggers, Lightning Web Components (LWC)     |
+
+---
+
+## 📸 Screenshots
+
+> *(You can add `.png` images inside a `/screenshots` folder and embed them like below)*
+
